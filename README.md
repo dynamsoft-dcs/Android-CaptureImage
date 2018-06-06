@@ -1,1 +1,2 @@
 # Android-CaptureImage
+This sample demonstrates how to use Dynamsoft Camera SDK on mobile devices to capture an image from live video streams by a simple click. Once captured, the image can be rotated, cropped, or have its brightness or contrast adjusted, etc.
