@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements DcsViewListener,D
         dcsView.setListener(this);
         dcsView.setCurrentView(DcsView.DVE_IMAGEGALLERYVIEW);
         try {
-            dcsView.getVideoView().setMode(DcsVideoView.DME_IMAGE);
+            dcsView.getVideoView().setMode(DcsView.DME_IMAGE);
         } catch (DcsValueOutOfRangeException e) {
             e.printStackTrace();
         }
